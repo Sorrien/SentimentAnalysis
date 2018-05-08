@@ -24,24 +24,6 @@ namespace SentimentAnalysisClassifier
             {
                 Console.WriteLine("Please enter a positive or negative statement.");
                 input = Console.ReadLine();
-                //List<SentimentData> sentiments = new List<SentimentData>()
-                //    {
-                //        new SentimentData
-                //        {
-                //            SentimentText = "Contoso's 11 is a wonderful experience",
-                //            Sentiment = 0
-                //        },
-                //        new SentimentData
-                //        {
-                //            SentimentText = "Really bad",
-                //            Sentiment = 0
-                //        },
-                //        new SentimentData
-                //        {
-                //            SentimentText = "Joe versus the Volcano Coffee Company is a great film.",
-                //            Sentiment = 0
-                //        }
-                //    };
                 List<SentimentData> sentiments = new List<SentimentData>()
                 {
                     new SentimentData
